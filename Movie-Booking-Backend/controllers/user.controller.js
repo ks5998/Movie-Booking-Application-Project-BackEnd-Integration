@@ -12,7 +12,7 @@ exports.signUp = (req, res) => {
     last_name,
     email_address,
     password,
-    mobile_number
+    mobile_number,
   } = req.body;
   if (
     !first_name ||
